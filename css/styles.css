@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* NavBar */
+.navbar {
+
+    & img[alt='mainLogo'] {
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid #000;
+    }
+}
+
+.nav-item {
+
+    margin: 20px;
+}
+
+
+
