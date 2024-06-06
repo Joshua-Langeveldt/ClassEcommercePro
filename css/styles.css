@@ -12,8 +12,8 @@
 }
 
 /* NavBar */
-.navbar {
-
+.navbar{
+    background-color: #ffca0b6e;
     & img[alt='mainLogo'] {
         width: 5rem;
         height: 5rem;
@@ -22,9 +22,32 @@
 }
 
 .nav-item {
-
     margin: 20px;
 }
 
+/* All The Images */
+img {
 
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+:is(h2) {
+
+    text-align: center;
+}
+
+/* Footer */
+footer{
+
+    text-align: center;
+    background-color: #ffca0b6e;
+}
+
+/* Display Grid */
+body {
+    display: grid;
+    grid-template-rows: auto minmax(100%, 100dvh) auto;
+}
 
